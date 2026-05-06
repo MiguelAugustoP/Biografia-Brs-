@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Bio Brs Miguel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- FUNDO -->
+<div class="background"></div>
+<div class="borda"></div>
+
+<!-- AVISO MOBILE -->
+<div id="rotate-warning">
+  <p>Gire o dispositivo</p>
+</div>
+
+<div class="layout">
+
+  <!-- MENU -->
+  <aside class="menu">
+    <h2>★ MENU</h2>
+<button class="menu-btn" onclick="trocar('status')">BIOGRAFIA</button>
+<button class="menu-btn" onclick="trocar('skills')">HABILIDADES</button>
+<button class="menu-btn" onclick="trocar('itens')">FERRAMENTAS</button>
+<button class="menu-btn" onclick="trocar('opcoes')">CONTATO</button>
+  </aside>
+
+  <!-- CONTEÚDO -->
+  <main class="conteudo">
+
+    <section id="status" class="tela ativa">
+      <div class="card">
+      <h1>NÍVEL 00</h1>
+      <p>Nome: Seu nome</p>
+      <p>Idade: XX</p>
+      </div>
+    </section>
+
+    <section id="skills" class="tela">
+      <div class="card">
+      <h2>HABILIDADES</h2>
+      <p>HTML, CSS, JS...</p>
+      </div>
+
+    </section>
+
+    <section id="itens" class="tela">
+      <div class="card">
+      <h2>FERRAMENTAS</h2>
+      <p>VS Code, GitHub...</p>
+        </div>
+
+    </section>
+
+    <section id="opcoes" class="tela">
+      <div class="card">
+
+      <h2>Contato e Redes</h2>
+      <a href="" target="_blank" rel="noopener noreferrer">Github</a>
+      <a href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="" target="_blank" rel="noopener noreferrer">Whatsapp </a>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- PERSONAGEM -->
+  <div class="personagem">
+<video autoplay loop muted playsinline class="char-video">
+  <source src="BRS.mp4" type="video/mp4">
+</video>
+  </div>
+
+</div>
+
+<audio id="bgm" src="fuji-forest-bgm.mp3" loop></audio>
+<audio id="select" src="select.mp3"></audio>
+<audio id="confirm" src="confirm.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
