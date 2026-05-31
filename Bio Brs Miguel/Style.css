@@ -44,7 +44,7 @@ body {
   position: relative;
   backdrop-filter: blur(4px);
   box-shadow: 0 0 15px #00f0ff22;
-  height: 60vh;
+  height: 55vh;
   overflow: hidden;
 }
 
@@ -292,7 +292,7 @@ a:hover {
   .card {
     padding: 10px;
     width: 100%;
-    heigth: 45vh;
+    heigth: 50vh;
   }
   .card p {
     line-height: 1.2;
